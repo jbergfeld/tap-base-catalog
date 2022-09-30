@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Location
 metadata:
-  name: tap-gui-catalog-info
-  description: A Base TAP GUI Catalog
+  name: tap-catalog-info
+  description: A sample TAP Catalog.
 spec:
   targets:
     - ./orgs/default.yaml

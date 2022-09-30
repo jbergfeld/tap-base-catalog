@@ -13,12 +13,12 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: default-user-01
+  name: jon
 spec:
   profile:
-    displayName: Default User 01
-    email: guest-01@example.com
-    picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
+    displayName: Jon
+    email: jon@example.com
+    picture: https://avatars.dicebear.com/api/bottts/user2.svg
   memberOf:
   - default-team
   - platform-team
@@ -26,11 +26,11 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: default-user-02
+  name: cody
 spec:
   profile:
-    displayName: Default User 02
-    email: guest-02@example.com
+    displayName: Cody
+    email: cody@example.com
     picture: https://avatars.dicebear.com/api/avataaars/guest@example.com.svg?background=%23fff
   memberOf: 
   - default-team
